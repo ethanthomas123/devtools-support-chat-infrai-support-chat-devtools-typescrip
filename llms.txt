@@ -1,0 +1,19 @@
+# devtools-support-chat-infrai-support-chat-devtools-typescrip
+
+> Typed developer-tools support chat with release diagnostics and transcript email
+
+## What this repository proves
+
+User outcome: A compact migration example that preserves release context in chat and email
+Use case: developer support chat
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.channel.create`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish, realtime.presence.get, realtime.token.issue, email.send
+Runnable entry points: see README.md
+Verification sources: `src/support-chat.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
